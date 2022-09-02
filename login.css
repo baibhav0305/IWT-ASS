@@ -1,0 +1,32 @@
+.container {
+  background-image: url("back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginContainer {
+  background-color: aquamarine;
+  padding: 60px;
+  border-radius: 15px;
+}
+
+.email,
+.password {
+  margin: 10px;
+}
+
+input {
+  border: none;
+  padding: 9px;
+  border-radius: 2px;
+}
+
+button {
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+}
